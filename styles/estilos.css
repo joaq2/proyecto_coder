@@ -1,4 +1,4 @@
-    ul {
+/*     ul {
         list-style-type: none;
     }
 footer {
@@ -117,9 +117,9 @@ font-size: 20px;
 
 .box-jugadores-imagen{
 
-height:15em ;
-width: 13.5em;
-display: flex;
+    height:15em ;
+    width: 13.5em;
+    display: flex;
 
 }
 
@@ -204,4 +204,4 @@ text-align: center;
 
 td{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} */
