@@ -61,19 +61,27 @@
 
 <!-- CAROUSEL -->
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide carousel-dark container" data-bs-ride="carousel">
   <div class="carousel-inner">
       <div class="carousel-item active">
-       <div class="row">
-       <img src="../imagenes/quilmes-1978-001jpg.webp" class="d-block w-75 col" alt="quilmescampeon">
-        <p class="d-block w-25 col">Quilmes campeon del torneo local argentino del 1978. Tras el gol de Gaspari ante Rosario Central Quilmes se consagro campeon y dejo a Boca en segundo. Este fue el titulo mas importante que Quilmes tuvo en su historia, muy importante para la comunidad cervecera.</p>
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            <img src="../imagenes/quilmes-1978-001jpg.webp" class="d-block w-100 " alt="quilmescampeon">
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <p class="d-block ">Quilmes campeon del torneo local argentino del 1978. Tras el gol de Gaspari ante Rosario Central Quilmes se consagro campeon y dejo a Boca en segundo. Este fue el titulo mas importante que Quilmes tuvo en su historia, muy importante para la comunidad cervecera.</p>
+          </div>
+        </div>
       </div>
-    </div>
     <div class="carousel-item">
         <div class="row">
-      <img src="../imagenes/hinchadaquilmes2.jpg" class="d-block w-75 col" alt="cancionesquilmes">
-      <p class="d-block w-25 col">"Quilmes, mi buen amigo, esta campaña volveremos a estar contigo, te alentaremos de corazoon, esta es tu hinchada que te quiere ver campeon, no me importa lo que digan, lo que digan los demas, yo te sigo a todar partes, cada vez te quiero mas.</p>
-       </div>
+          <div class="col-lg-8 col-sm-12">
+            <img src="../imagenes/hinchadaquilmes2.jpg" class="d-block w-100 " alt="cancionesquilmes">
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <p class="d-block ">"Quilmes, mi buen amigo, esta campaña volveremos a estar contigo, te alentaremos de corazoon, esta es tu hinchada que te quiere ver campeon, no me importa lo que digan, lo que digan los demas, yo te sigo a todar partes, cada vez te quiero mas.</p>
+          </div>
+        </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -89,22 +97,28 @@
 <!-- FOOTER -->
 
 
-<footer class="bg-primary text-white pt-5 pb-4">
+<footer class="bg-primary text-white pt-5 pb-4 container-fluid">
   <div class="footer-texto">
-    <p>Ingresa tu mail</p>
-    <p>Ingresa tu comentario</p>
+  
+    <div class="row">
+      <div class="col-4">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Tu comentario</label>
+          <input type="textarea" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-light">Submit</button>
+      </form>
+    </div>
+    </div>
   </div>  
-    <form action="" method="get">
-
-        <input type="mail"  name="mail"   id="mail"> 
-        <input type="textarea" name="textarea" id="coment">
-        <input type="submit" value="Enviar">
-    </form>
-
-
-
-
 </footer>
+
 
 
 

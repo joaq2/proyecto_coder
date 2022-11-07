@@ -51,38 +51,59 @@
 
 <!-- INFORMACION -->
 
-<div>
+<div class="container">
 
-    <h2 class="text-center">Quilmes campeon</h2>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nobis corporis ut aut beatae numquam, atque, ipsum error dolores laudantium quos, rem consequuntur odio possimus sapiente consectetur reprehenderit illum ex?</p>
-    <img src="../imagenes/quilmes-1978-001jpg.webp" width="615" height="375" alt="quilmescampeon">
-</div>
-
+  <h2 class="text-center">Quilmes campeon</h2>
+    <div class="row">
+      <article class="col-12">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nobis corporis ut aut beatae numquam, atque, ipsum error dolores laudantium quos, rem consequuntur odio possimus sapiente consectetur reprehenderit illum ex?</p>
+      </article>
+    </div>
+    <div class="row">
+    <article class="col-12 text-center">
+        <img src="../imagenes/quilmes-1978-001jpg.webp" width="615" height="375" alt="quilmescampeon">
+      </article>
+    </div>
+ 
 <div>
     <h2 class="text-center"> Primera clasificacion a libertadores</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa recusandae, repudiandae autem in eveniet nam quis dolores quaerat sed perferendis corrupti fugiat deleniti nemo deserunt accusamus sint tempore est ducimus.</p>
-    <img src="../imagenes/primeraclasificacionlibertadores.jpeg" width="615" height="375" alt="quilmesclasificacionlibertadores">
+    <div class="row">
+      <article class="col-12">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa recusandae, repudiandae autem in eveniet nam quis dolores quaerat sed perferendis corrupti fugiat deleniti nemo deserunt accusamus sint tempore est ducimus.</p>
+      </article>
+      <article class="col-12 text-center">  
+        <img src="../imagenes/primeraclasificacionlibertadores.jpeg" width="615" height="375" alt="quilmesclasificacionlibertadores">
+      </article>
+  </div>
+  </div>
 </div>
 
 <!-- FOOTER -->
 
-<footer class="bg-primary text-white pt-5 pb-4">
+<footer class="bg-primary text-white pt-5 pb-4 container-fluid">
   <div class="footer-texto">
-    <p>Ingresa tu mail</p>
-    <p>Ingresa tu comentario</p>
+  
+    <div class="row">
+      <div class="col-4">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Tu comentario</label>
+          <input type="textarea" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-light">Submit</button>
+      </form>
+    </div>
+    </div>
   </div>  
-    <form action="" method="get">
-
-        <input type="mail"  name="mail"   id="mail"> 
-        <input type="textarea" name="textarea" id="coment">
-        <input type="submit" value="Enviar">
-    </form>
-
-
-
-
 </footer>
+
+
+
 
 
 

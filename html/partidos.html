@@ -57,22 +57,22 @@
 <!-- VIDEOS DE PARTIDOS --> 
 
 <div class="container">
-  <div class="row">
-    <div class="col-6 ">
+  <div class="row text-center">
+    <article class="col-lg-6 col-sm-12 partidos">
       <iframe width="360" height="215" src="https://www.youtube.com/embed/oZLj6lch_j8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    </article>
 
-    <div class="col-6">
+    <article class="col-lg-6 col-sm-12 partidos">
       <iframe width="360" height="215" src="https://www.youtube.com/embed/W54K8sfQxhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    </article>
   
-    <div class="col-6">
+    <article class="col-lg-6 col-sm-12 partidos">
       <iframe width="360" height="215" src="https://www.youtube.com/embed/cWvWpY-CSQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    </article>
 
-    <div class="col-6">
+    <article class="col-lg-6 col-sm-12 partidos">
       <iframe width="360" height="215" src="https://www.youtube.com/embed/vzbaW7_OzYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    </article>
 
   </div>
 
@@ -83,21 +83,26 @@
 
  <!-- FOOTER   -->
  
- <footer class="bg-primary text-white pt-5 pb-4">
+ <footer class="bg-primary text-white pt-5 pb-4 container-fluid">
   <div class="footer-texto">
-    <p>Ingresa tu mail</p>
-    <p>Ingresa tu comentario</p>
+  
+    <div class="row">
+      <div class="col-4">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Tu comentario</label>
+          <input type="textarea" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-light">Submit</button>
+      </form>
+    </div>
+    </div>
   </div>  
-    <form action="" method="get">
-
-        <input type="mail"  name="mail"   id="mail"> 
-        <input type="textarea" name="textarea" id="coment">
-        <input type="submit" value="Enviar">
-    </form>
-
-
-
-
 </footer>
 
 

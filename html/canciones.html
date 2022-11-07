@@ -53,52 +53,83 @@
 </div>
 
 <!-- CANCIONES -->
-<div>
-  <table class="table">
-    <thead>
-    <tbody>
-      <tr>
-        <td>El que no salta es de Moron</td>
-        <td>Hay que alentar hasta la muerte <br>
-            porque yo a Quilmes lo quiero <br>
-            porque soy del cervecero <br>
-            y lo llevo en el corazon <br>
-            no somos como el funebrero <br>
-            que va cuando va primero <br>
-            y todo eso se acabo <br>
-            oooh oooh el que no salta es de moron <br>
-            oooh oooh el que no salta es de moron <br></td>
-     </tr>
-      <tr>
-       
-        <td>Señores dejo todo</td>
-        <td> Señores dejo todo <br>
-          me voy a ver a Quilmes <br>
-          porque los jugadores <br>
-          me van a demostrar <br>
-          que salen a ganar <br>
-          quieren salir campeon <br>
-          que lo llevan adentro <br>
-          como lo llevo yo <br></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+  
+  <div class="container">
+    <div class="row">  
+      <div class="canciones col-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">El que no salta es de moron</h5>
+            <p class="card-text">Hay que alentar hasta la muerte 
+              porque yo a Quilmes lo quiero
+              porque soy del cervecero
+              y lo llevo en el corazon
+              no somos como el funebrero
+              que va cuando va primero
+              y todo eso se acabo
+              oooh oooh el que no salta es de moron
+            oooh oooh el que no salta es de moron</p>
+          </div>     
+        </div>
+      </div>
+      <div class="canciones col-4"> 
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Señores dejo todo</h5>
+            <p  class="card-text">Señores dejo todo 
+              me voy a ver a Quilmes  
+              porque los jugadores 
+              me van a demostrar 
+              que salen a ganar 
+              quieren salir campeon 
+              que lo llevan adentro 
+              como lo llevo yo </p>
+        
+          </div>
+        </div>
+      </div>
+      <div class="canciones col-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Señores dejo todo</h5>
+            <p class="card-text">Señores dejo todo 
+            me voy a ver a Quilmes  
+            porque los jugadores 
+            me van a demostrar 
+            que salen a ganar 
+            quieren salir campeon 
+            que lo llevan adentro 
+            como lo llevo yo </p>
+        
+            </div>
+          </div>
+      </div>
+    </div>  
+  </div>
 
-<!-- FOOTER -->
+  <!-- FOOTER -->
 
-<footer class="bg-primary text-white pt-5 pb-4">
-  <div class="footer-texto">
-    <p>Ingresa tu mail</p>
-    <p>Ingresa tu comentario</p>
-  </div>  
-    <form action="" method="get">
-
-        <input type="mail"  name="mail"   id="mail"> 
-        <input type="textarea" name="textarea" id="coment">
-        <input type="submit" value="Enviar">
-    </form>
-
+  <footer class="bg-primary text-white pt-5 pb-4 container-fluid">
+    <div class="footer-texto">
+  
+      <div class="row">
+        <div class="col-4">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Tu comentario</label>
+          <input type="textarea" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-light">Submit</button>
+      </form>
+      </div>
+      </div>
+    </div>  
+  </footer>
 
 
 
