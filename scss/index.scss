@@ -1,15 +1,48 @@
 
+$font:'Montserrat', sans-serif;
+$blue:rgb(0,0,255);
+$white: rgb(255, 255, 255);
+$gray: #8c8c8c;
+$black: #000000;
+$dark-blue: #0a1172;
+
+body{
+
+    font-family: $font;
+
+}
+
+header{
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,255,1) 100%);
+    height: 150px;
+
+}
+
 .texto-header{
 
+        display:flex;
+        justify-content: flex-end ;
+
     a{
-        color: #ffffff;
+        color: $white;
+        font-weight: bold;
+        
+    @media (max-width: 400px){
+
+        color: $dark-blue;
+
+    }
     }
 
 }
 
 .historia{
 
-   img{ padding-left: 40%;}
+    img{ padding-left: 40%;
+    max-width: 100%;
+}
 
 }
 
@@ -18,7 +51,7 @@
 
     p{
 
-        font-size: 5px;
+        font-size: 25px;
 
     }
 
@@ -47,7 +80,7 @@ footer{
 
 h1{
 
-color: blue;
+    color:$blue;
 
 }
 
@@ -60,4 +93,68 @@ color: blue;
 
 .canciones{
     margin-top: 4rem;
+}
+
+.texto-footer{
+
+    padding-bottom: 50px;
+
+}
+
+
+.contenidofooter{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+h2{
+
+    margin: 30px;
+
+}
+
+
+.imput{
+
+    width: 100px;
+
+}
+
+
+@media (max-width: 400px){
+
+    .img-tamano{
+
+        width: 340px;
+        height: 200px;
+
+    }
+
+}
+
+.carousel-texto{
+
+        font-size: 21px;
+        color: $gray;
+        font-weight: 400;
+        margin: 8px 0;    
+
+}
+
+.carousel-title{
+
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: $black;
+
+}
+
+.img-rounded-corners{
+
+    border-radius: 30px;
+
 }

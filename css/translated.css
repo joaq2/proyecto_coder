@@ -1,11 +1,27 @@
-.texto-header a {
-  color: #ffffff; }
+body {
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  background: white;
+  background: linear-gradient(0deg, white 0%, blue 100%);
+  height: 150px; }
+
+.texto-header {
+  display: flex;
+  justify-content: flex-end; }
+  .texto-header a {
+    color: white;
+    font-weight: bold; }
+    @media (max-width: 400px) {
+      .texto-header a {
+        color: #0a1172; } }
 
 .historia img {
-  padding-left: 40%; }
+  padding-left: 40%;
+  max-width: 100%; }
 
 .jugadores p {
-  font-size: 5px; }
+  font-size: 25px; }
 
 footer {
   margin-top: 98px; }
@@ -25,3 +41,37 @@ h1 {
 
 .canciones {
   margin-top: 4rem; }
+
+.texto-footer {
+  padding-bottom: 50px; }
+
+.contenidofooter {
+  display: flex;
+  justify-content: center; }
+
+h2 {
+  margin: 30px; }
+
+.imput {
+  width: 100px; }
+
+@media (max-width: 400px) {
+  .img-tamano {
+    width: 340px;
+    height: 200px; } }
+
+.carousel-texto {
+  font-size: 21px;
+  color: #8c8c8c;
+  font-weight: 400;
+  margin: 8px 0; }
+
+.carousel-title {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #000000; }
+
+.img-rounded-corners {
+  border-radius: 30px; }
